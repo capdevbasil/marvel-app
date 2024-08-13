@@ -1,0 +1,18 @@
+.paginationContainer {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 1rem;
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+            text-align: center;
+        }
+    }
+    .activePage {
+        background-color: lightblue;
+    }
+}

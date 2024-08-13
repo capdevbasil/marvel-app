@@ -1,0 +1,7 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    > span {
+        text-align: end;
+    }
+}

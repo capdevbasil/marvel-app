@@ -1,0 +1,25 @@
+.characterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+    .links {
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+        li {
+            a {
+                padding: 10px;
+                text-transform: capitalize;
+                &:hover {
+                    background-color: aqua;
+                    color: red;
+                    border: 1px solid saddlebrown;
+                }
+            }
+        }
+    }
+}
